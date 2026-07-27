@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Uma Mensagem do Céu Para Você</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Lora:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#C5932A;--gold-light:#E8C86A;--gold-dark:#9A7420;
+  --warm:#FDFBF7;--cream:#F7F0E3;--brown:#4A3728;--text:#3D2E22;
+  --muted:#78685c;--green:#2E5C3A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Lora', Georgia, serif;background:var(--warm);color:var(--text);
+  min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px;height:100vh;
+}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:url("data:image/svg+xml,%3Csvg width='58' height='58' viewBox='0 0 58 58' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23C5932A' fill-opacity='0.045'%3E%3Cpath d='M29 8l2.3 6.7H38l-5.4 4 2.1 6.8-5.7-4.1-5.7 4.1 2.1-6.8-5.4-4h6.7zM9 39h40v1H9z'/%3E%3C/g%3E%3C/svg%3E")}
+.card{position:relative;z-index:1;width:100%;max-width:520px;background:#fff;border:1px solid rgba(197,147,42,.22);border-radius:24px;box-shadow:0 18px 55px rgba(74,55,40,.12);overflow:hidden;text-align:center}
+.top{background:linear-gradient(135deg,var(--brown),#2d2118);color:#fff;padding:10px 15px;font-size:13px;font-weight:600}
+.content{padding:34px 24px 30px}
+.badge{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:#fff;border-radius:999px;padding:8px 18px;font-size:11px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;margin-bottom:18px}
+h1{font-family:'Playfair Display',serif;font-size:clamp(28px,8vw,42px);line-height:1.12;color:var(--brown);margin-bottom:14px}
+h1 em{color:var(--gold-dark)}
+p{font-size:16px;line-height:1.65;color:var(--muted);margin-bottom:18px}.highlight{background:var(--cream);border-left:4px solid var(--gold);border-radius:14px;padding:14px 15px;color:var(--text);font-size:15px;margin:18px 0 22px}.btn{display:block;width:100%;background:linear-gradient(135deg,var(--green),#3B7C50);color:#fff;text-decoration:none;border-radius:999px;padding:17px 20px;font-size:17px;font-weight:700;box-shadow:0 10px 28px rgba(46,92,58,.25);transition:.2s}.btn:hover{transform:translateY(-2px)}.secure{font-size:12px;color:var(--muted);margin-top:14px}.cross{font-size:32px;color:var(--gold);margin-bottom:10px}.footer{padding:16px;font-size:11px;color:#8d8178;background:var(--cream)}
+@media(max-width:480px){body{align-items:center;padding:12px}.content{padding:28px 18px 24px}.top{font-size:12px}p{font-size:15px}.btn{font-size:16px;padding:16px}}
+</style>
+</head>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<script>
+  window.pixelId = "69fcfdb6f55b7d2fbf54748b";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<body>
+  <main class="card">
+    <div class="top">Uma mensagem especial pode estar esperando por você</div>
+    <section class="content">
+      <div class="cross">✝</div>
+      <div class="badge">Leitura espiritual</div>
+      <h1>Não ignore este <em>sinal</em></h1>
+      <p>Algumas palavras chegam no momento certo para acalmar o coração, renovar a fé e trazer direção para os próximos passos.</p>
+      <div class="highlight">Antes de continuar, veja a mensagem completa preparada para quem sente que precisa de uma resposta espiritual hoje.</div>
+      <a id="continueBtn" class="btn" href="https://mensagemcelestial.blog/mensagem/" onclick="if(window.location.search){this.href='https://mensagemcelestial.blog/mensagem/'+window.location.search}">Ver a mensagem completa</a>
+      
+<p style="font-size:14px;color:#78685c;margin-top:14px;text-align:center;">
+⚠️ Essa mensagem não aparece para todos… apenas para quem realmente precisa de uma direção agora.
+</p>
+
+      <div class="secure">Acesso seguro • Conteúdo de fé e reflexão</div>
+    </section>
+    <footer class="footer">Este conteúdo é espiritual e informativo. Não substitui acompanhamento profissional.</footer>
+  </main>
+<script>
+(function(){
+  var btn=document.getElementById('continueBtn');
+  var destino='https://mensagemcelestial.blog/mensagem/';
+  var query=window.location.search || '';
+  btn.href=destino + query;
+})();
+</script>
+</body>
+</html>
